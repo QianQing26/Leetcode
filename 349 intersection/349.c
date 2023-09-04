@@ -45,4 +45,4 @@ int* intersection(int* nums1, int nums1Size, int* nums2, int nums2Size, int* ret
         insert(&set2,nums2[i]);
     }
     return getIntersection(&set1,&set2,returnSize);
-}
+} 
